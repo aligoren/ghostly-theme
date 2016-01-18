@@ -1,6 +1,6 @@
 #Ghostly Theme
 
-[Demo](https://aligoren.com/)
+[Demo](https://aligoren.com/) ~~ [Download](https://github.com/aligoren/ghostly-theme/blob/master/ghostly.zip)
 
 [CyberSecML](https://cybersecml.com/) sitesinden uyarladım. Esasen bir Ghost temasıymış.
 
