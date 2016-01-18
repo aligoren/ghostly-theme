@@ -33,7 +33,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	border-top: 5px;
 	border-style: solid;
 	border-color:#E7E7E7;
-	
+
 	padding:10px;
 }
 #comments{
@@ -44,7 +44,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	border: 1px;
 	border-style: solid;
 	border-color: gray;
-	
+
 	margin-top: 15px;
 	background-color: #F8F8F8;
 }
@@ -140,9 +140,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 img {
    max-width: 800px;
    max-height: 600px;
-   margin-left: auto; 
-   margin-right: auto; 
-   padding-bottom: 1em; 
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 1em;
    padding-top: 1em;
 }
 .no-padding {
@@ -348,6 +348,9 @@ img {
    border-top: 1px solid #e5e5e5;
    border-bottom: 1px solid #e5e5e5;
    margin-top: 20px;
+	 width: 100%;
+	 position: absolute;
+	 bottom:0px;
 }
 .blog-footer p:last-child {
    margin-bottom: 0;
@@ -428,4 +431,3 @@ img {
     the version number by 1 in the @font-face rule. `?v=1` becomes `?v=2`
     This forces browsers to download the new font file.
 */
-
