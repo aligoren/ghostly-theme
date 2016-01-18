@@ -12,8 +12,8 @@
    <!-- Bootstrap -->
    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-   <link href="<?php bloginfo('template_url'); ?>/bootstrap-theme.min.css" rel="stylesheet">
-   <link href="<?php bloginfo('template_url'); ?>/bootstrap.min.css" rel="stylesheet">
+   <link href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap-theme.min.css" rel="stylesheet">
+   <link href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
 
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,15 +23,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-   <link rel="canonical" href="http://cybersecml.com/" />
+    <link rel="canonical" href="http://cybersecml.com/" />
     <meta name="referrer" content="origin" />
-    
+
     <meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?php the_title(); ?>" />
     <meta property="og:description" content="<?php if(!is_singular()) bloginfo('description'); else the_title(); ?>" />
     <meta property="og:url" content="<?php the_permalink(); ?>" />
-    
+
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="<?php the_title(); ?>" />
     <meta name="twitter:description" content="<?php the_title(); ?>" />
@@ -49,11 +49,7 @@
    <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+         <button type="button" class="navbar-toggle collapsed glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
          </button>
       </div>
 
